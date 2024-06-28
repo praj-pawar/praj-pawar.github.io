@@ -27,11 +27,7 @@
   white-space: nowrap;
 }
 
-.hero-subtitle br {
-  display: block;
-  content: "";
-  margin-top: 10px; /* Adjust this value to control spacing between lines */
-}
+
 
 
 /*-----------------------------------*\
