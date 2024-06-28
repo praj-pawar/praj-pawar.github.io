@@ -12,6 +12,19 @@
   text-align: center;
 }
 
+.hero-subtitle-container {
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  bottom: 20px; /* Adjust this value to position the text vertically */
+  left: 0;
+}
+
+.hero-subtitle {
+  display: inline-block;
+  text-align: left;
+  margin: 0 auto;
+}
 
 /*-----------------------------------*\
   #CUSTOM PROPERTY
