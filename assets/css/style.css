@@ -11,7 +11,20 @@
 
 
 
+.hero-subtitle-container {
+  text-align: center;
+  padding: 20px 0;
+  background-color: var(--eerie-black);
+}
 
+.hero-subtitle {
+  font-size: var(--fs-8);
+  text-transform: uppercase;
+  font-weight: var(--fw-700);
+  color: var(--white);
+  letter-spacing: 2px;
+  line-height: 1.5em;
+}
 
 
 /*-----------------------------------*\
@@ -468,7 +481,13 @@ body.nav-active { overflow: hidden; }
   #HERO
 \*-----------------------------------*/
 
-.hero { padding-block-start: 130px; }
+.hero { 
+        padding-block-start: 130px;
+  padding-block-end: 0;
+}
+.hero-content {
+  margin-bottom: 20px;
+}
 
 .hero-title {
   text-transform: uppercase;
