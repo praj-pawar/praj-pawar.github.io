@@ -10,23 +10,6 @@
 
 
 
-
-.hero-subtitle-container {
-  text-align: center;
-  padding: 20px 0;
-  background-color: var(--eerie-black);
-}
-
-.hero-subtitle {
-  font-size: var(--fs-8);
-  text-transform: uppercase;
-  font-weight: var(--fw-700);
-  color: var(--white);
-  letter-spacing: 2px;
-  line-height: 1.5em;
-}
-
-
 /*-----------------------------------*\
   #CUSTOM PROPERTY
 \*-----------------------------------*/
@@ -494,6 +477,12 @@ body.nav-active { overflow: hidden; }
   word-break: break-all;
 }
 
+.hero-subtitle-container {
+  text-align: center;
+  padding: 20px 0;
+  background-color: var(--eerie-black);
+}
+
 .hero-subtitle {
   font-size: var(--fs-8);
   text-transform: uppercase;
@@ -501,7 +490,15 @@ body.nav-active { overflow: hidden; }
   color: var(--white);
   letter-spacing: 2px;
   line-height: 1.5em;
-  margin-block: 10px 30px;
+}
+
+.hero-subtitle a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+.hero-subtitle a:hover {
+  text-decoration: underline;
 }
 
 .hero-banner {
